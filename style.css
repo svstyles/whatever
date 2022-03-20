@@ -1,0 +1,122 @@
+@font-face {
+    font-family: AmericanCaptain;
+    src: url(../fonts/American_Captain.ttf);
+    }
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header-bar {
+    border-bottom: solid 2px black
+}
+
+#header-text {
+    font-family: AmericanCaptain;
+}
+
+#header-text:hover {
+    text-decoration: none;
+}
+
+#main-box {
+    margin-top: 10vh; 
+    width: 35%;
+  }
+
+#main-logo {
+    width: 100%;
+}
+
+#footer {
+    height: 5vh;
+    border-top: 4px solid slategray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.start-button {
+    display: none;
+}
+
+#game-image {
+    height: 50%;
+    width: 50%;
+    margin: 4%;
+}
+
+#info-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+#game-display {
+    box-shadow: 5px 5px;
+}
+
+#game-image:hover {
+    cursor: pointer;
+}
+
+#game-title {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#user-choice {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#game-display:hover {
+    background-color: #DCDCDC;
+    border-radius: 25px;
+}
+
+#clips-display {
+    display: inline-block;
+    width: 100%;
+}
+
+.twitchClip {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.twitchClip iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 4px darkgray;
+    border-radius: 25px;
+}
+
+.card {
+    height: 100%;
+}
+
+.bio-pic {
+    width: 75%;
+}
+
+#loader-image {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 576px) {
+    #main-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-logo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #main-box {
+        width: 75%;
+    }
+}
